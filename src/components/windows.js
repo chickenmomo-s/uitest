@@ -1,6 +1,6 @@
 import Split from 'react-split';
 import './style.css';
-export const windows = () => {
+const Windows = () => {
   return (
     <Split
       direction='vertical'
@@ -15,3 +15,5 @@ export const windows = () => {
     </Split>
   );
 };
+
+export default Windows;

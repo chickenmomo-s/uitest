@@ -1,9 +1,9 @@
 import './App.css';
-import windows from './components/windows.js';
+import Windows from './components/Windows.js';
 function App() {
   return (
     <div className="App">
-      <windows />
+      <Windows/>
     </div>
   );
 }
