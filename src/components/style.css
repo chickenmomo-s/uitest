@@ -1,0 +1,16 @@
+.gutter {
+  background-color: #eee;
+
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+  background-color: aqua;
+  cursor: col-resize;
+}
+
+.gutter.gutter-vertical {
+  background-color: burlywood;
+  cursor: row-resize;
+}
